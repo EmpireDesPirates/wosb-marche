@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WoSB Marché — World of Sea Battle</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>⚓ WoSB Marché</h1>
+    <p>Le marché des marins de World of Sea Battle</p>
+    <div id="status">🔄 Connexion à l'API...</div>
+  </header>
+
+  <main>
+    <section id="stats">
+      <div class="card"><h2 id="stat-players">–</h2><p>Joueurs en ligne</p></div>
+      <div class="card"><h2 id="stat-ships">–</h2><p>Navires recensés</p></div>
+      <div class="card"><h2 id="stat-offers">–</h2><p>Offres sur le marché</p></div>
+    </section>
+
+    <section id="market">
+      <h2>🛒 Offres du marché</h2>
+      <table>
+        <thead>
+          <tr><th>Objet</th><th>Vendeur</th><th>Prix (or)</th><th>Date</th></tr>
+        </thead>
+        <tbody id="offers-body">
+          <tr><td colspan="4">Chargement...</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>WoSB Marché — données fournies par l'API World of Sea Battle</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

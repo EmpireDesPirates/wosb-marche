@@ -1,0 +1,31 @@
+{
+  "game": {
+    "players": 42,
+    "ships": 120,
+    "event": "Guerre des Flottes",
+    "lastUpdate": "2026-11-05T17:00:00Z"
+  },
+  "market": [
+    {
+      "id": 1,
+      "item": "Canon de bronze",
+      "seller": "CapitaineBarbeNoire",
+      "price": 1500,
+      "date": "2026-11-05T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "item": "Voile renforcée",
+      "seller": "AmiralKraken",
+      "price": 800,
+      "date": "2026-11-05T12:30:00Z"
+    },
+    {
+      "id": 3,
+      "item": "Carte au trésor",
+      "seller": "CorsaireRouge",
+      "price": 3200,
+      "date": "2026-11-05T14:45:00Z"
+    }
+  ]
+}
